@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="fb.css">
+   <header>
+       <div class="fblogo" id="fblogo"><a href="https://www.facebook.com"><img src="fblogo.JPG"></a> </div>
+       <div id="headertable">
+           <table>
+               <tr>
+                    <td>Email or Phone</td>
+                    <td>Password</td>
+                    <td></td>
+                </tr>
+               <tr>
+                    <td><input type="text"></td>  
+                    <td><input type="text"></td>
+                    <td><button>Log In</button></td>
+                </tr>
+                <tr>
+                    <td></td>   
+                    <td> <a href="">Forgot account?</a></td>
+                    <td></td>
+                </tr>
+           </table>
+        </div>
+          
+    </header>
+    <body >
+        <div class="body_left">
+             <h2 class="list_h2">Connect with friends and the </h2>
+                <h2 class="list_h2">world around you on Facebook. </h2>
+                <img src="fb1.JPG" ><span><b class="list_b">See photos and updates</b> from friends in news feed.</span>
+                <img src="fb2.JPG"><span><b class="list_b">Share what's new</b> in your life on your timeline.</span>
+                <img src="fb3.JPG"><span><b class="list_b">Find more</b>of what you're looking for with Facebook Search.</span>
+        </div>
+        <div class="body_right">
+            <h1> Sign Up</h1>
+        <p>It's free and always will be.</p>
+        <form>
+            <table class="infotable" >
+                <tr><td><input type="text" placeholder="firstname"></td><td><input type="text" placeholder="lastname" ></td></tr>
+                <tr><td colspan="2"><input type="text" placeholder="Mobile number or email" size="45"></td></tr>
+                <tr><td colspan="2"><input type="text" placeholder="Re-enter mobile number or email" size="45"></td></tr>
+                <tr><td colspan="2"><input type="text" placeholder="New password" size="45"></td></tr>
+            </table>
+            <p>Birthday</p>
+            <select >
+            <option value="0">Month</option>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+            <select id="day">
+            <option value="0">Day</option>
+                
+            </select>
+            <select id="year">
+            <option value="0">Year</option>
+            </select> <a href="faq.html">Why do i need to provide my birthday?</a><br><br>
+            <input type="radio" name="sex" value="M" placeholder="Male">Male
+            <input type="radio" name="sex" value="F" placeholder="Female">Female
+            
+            <p>By clicking Create Account, you agree to our <a>Terms</a> and that you have read our <a>Data Policy</a>, including our <a>Cookie Use</a>. You may receive SMS Notifications from Facebook and can opt out at any time.</p>
+            
+            <button class="fbcreate">Create Account</button>
+            <hr>
+            <a href="fbcreateapage.html">Create a page</a> for a celebrity, brand or business.
+        </form>
+        </div>
+    </body>
+    <footer>
+        <div class="fotdiv">
+            <a href="">English(US)</a>
+            <a href="">Espaniol</a>
+            <a href="">Francs</a>
+            <a href="">Chinese(Traditional)</a>
+            <a href="">Arabic</a>
+            <a href="">Portugese</a>
+            <a href="">Italiano</a>
+            <a href="">Deutsch</a>
+            <a href="">Hindi</a>
+            <a href="">Sign Up</a>
+            <a href=""> Login</a>
+            <a href="">Messenger</a>
+            <hr> 
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a href="">English(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            
+            <a class="break"href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break"href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break"href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            <a class="break" href="">Hindi(US)</a>
+            
+            
+
+        </div>
+    </footer>
+    <script>
+$(document).ready(function(){
+    var i = 1;
+    for(i=1;i<=31;i++){
+$('#day').append($('<option>', {value:i, text:i}));        
+    }
+     var j = 2017;
+    for(j=2017;j>=1905;j--){
+$('#year').append($('<option>', {value:j, text:j}));        
+    }
+});
+    </script>
+</html>
