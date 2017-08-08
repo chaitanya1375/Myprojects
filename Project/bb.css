@@ -1,0 +1,26 @@
+.outerdiv {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #555555;
+    background: #555555;
+    margin: auto;
+    border-radius: 5px;
+}
+.innerdiv{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background: #ffffff;
+    padding: 10px;
+    margin:3px;
+    position:absolute;
+}
+button{
+    padding: 15px 32px;
+    font-size: 25px;
+}
+
+.bttn{
+    margin-left: 35%;
+    padding: 15px;
+}
