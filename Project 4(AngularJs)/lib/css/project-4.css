@@ -1,0 +1,76 @@
+.row_r1{
+    text-align-last: center;
+    background-color: #5597B4;
+}
+.row_r1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+}
+a:hover{
+    cursor: pointer;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.active{
+    background-color: #E35885;
+}
+.row_r2{
+	font-size: 30px;
+	font-weight: bold;
+	text-align-last: center;
+	background-color: #ffff99;
+	padding: 10px;
+}
+.row_r3{
+	background-color: #5597B4;
+}
+.myval{
+	float: right;
+}
+.my_form{
+	margin: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: #E35885;
+	color: #FFFFFF;
+}
+/* .selected-class-name {
+  background-color: ##8EC16D;
+} */
+.my_tot{
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 15px;
+}
+hr{
+	margin-left: 1.0em;
+	margin-right: 1.0em;
+}
+.my_form:hover{
+	cursor: pointer;
+}
+.chose{
+	color: #7D9098;
+}
+.menu_sel{
+	color: #ffffff;
+	background-color: #C4D7E0;
+	padding: 5px 12px 5px 12px;
+	border-radius: 2px; 
+}
+.descriptive{
+	text-align-last: center;
+	color: #ffffff;
+	font-weight: bold;
+	/* padding: 20px; */
+}
+.notes{
+	font-weight: bold;
+	font-size: 30px;
+	color: #000000;
+}

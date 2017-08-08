@@ -1,0 +1,147 @@
+.row_r1{
+    background-color: #3E454B;
+}
+.about_menu{
+    text-align: right;
+    padding: 0px 25px 5px 0px;
+}
+.about_menu a{
+    text-decoration: none;
+    color: #E1E8EE;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.about_menu a:hover{
+    color: #FE7D00;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left: -40px;
+}
+ul li:before{
+    font-family: 'FontAwesome';
+    content: "\f054"; 
+    color:#FE7D00;
+    padding-right: 7px;
+}
+.col-md-4{
+    padding:0px 50px;
+}
+.main_head{
+    color: #45B2ED;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+.carousel-inner img{
+    height: 400px;
+    width: 100%;
+}
+.row_r2 h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+.row_r2 button{
+    border-color: #FE7D00;
+    background-color: #FE7D00;
+}
+.row_r3{
+    background-color: #1D1D1D;
+    color: #E3DEE4;
+    padding-top: 20px;
+}
+.rose{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.r2_headlines,.quote_title, .row_r4 h4{
+    color: #FE7D00;
+}
+.user_icon{
+    height: 40px;
+    weight: 40px;
+}
+.quote_email,.row_r4 h5{
+    color: #595959;
+}
+.row_r4 h3{
+    color: #F8F8F8;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.row_r4{
+    background-color: #2A2A2A;
+    padding-bottom: 50px;
+}
+.row_r4 img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.row_r4 p{
+    color: #F8F8F8;
+}
+button{
+    color: #F8F8F8;
+    background-color: #FE7D00;
+    border-radius: 7px;
+    border: none;
+    padding: 12px;
+}
+.row_r5{
+    background-color: #000000;
+}
+.row_r5 i{
+    color:#FE7D00; 
+    font-size:40px;
+}
+.geolocation,.phone_email,.copyrights{
+    padding: 35px 0px 0px 35px;
+    color: #F8f8f8;
+}
+.geolocation:hover{
+    cursor: pointer;
+}
+#share_icons{
+    font-size: 24px;
+    padding-top: 5px;
+    padding-right: 10px;
+    color: #404549;
+}
+.copyrights i{
+    padding-right: 5px;
+}
+.gototop:hover{
+    cursor: pointer;
+}
+.gototop{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    font-size: 30px;
+    color: #FE7D00;
+}
+.carousel-indicators{
+    margin-left: -10%;
+}
+.carousel-indicators li{
+    width:25px;
+    border-radius: 3px;
+}
+.carousel-indicators .active{
+    background-color:  #FE7D00;
+    width: 25px;
+    border-radius: 3px;
+}
+.carousel-caption{
+    text-align: left;
+}

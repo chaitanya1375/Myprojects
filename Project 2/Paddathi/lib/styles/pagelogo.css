@@ -1,0 +1,132 @@
+.row_r1 .col-md-3{
+    background-color: #151519;
+    color:#56BFF7;
+    font-size: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.row_r1 .col-md-9{
+    text-align: right;
+    color:#7F8190;
+    padding-top: 7px;
+    background: linear-gradient(#151519, #20303B);
+    padding-bottom: 10px;
+}
+.version{
+    color:#69788B;
+    font-size: 10px;
+}
+.beta{
+    color:#F70101;
+    font-size: 10px;
+}
+.row_r1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#3E87B2;
+    padding-left: 20px;
+}
+.row_r1 span{
+    color:#3E87B2;
+}
+.row_r2 #lib{
+    background-color:#25262C;
+    color:#FEFEFB;
+    padding-top: 7px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.row_r2 .col-md-3{
+    background-color:#61CBFF;
+    color:#25262C;
+    font-weight: bold;
+}
+.row_r2 .col-md-9{
+    background-color:#61CBFF;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#share_icons{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.row_r2{
+    font-weight: bold;
+}
+.exp_icons{
+    text-align: right;
+}
+.exp_icons i{
+    padding-right: 4px;
+}
+.exp_icons span{
+    padding-right: 20px;
+}
+.row_r3 .col-md-3{
+    background-color:#2F3037;
+    color: #817F85;
+    font-weight: bold;
+    height: 100vh;
+}
+.right_arrow{
+    float: right;
+}
+.nav_men{
+    padding: 3px;
+    font-size: 15px;
+    border-bottom: 1px solid #36373F;
+}
+.icon{
+    padding-right: 2px;
+}
+.nav_men:hover {
+    cursor: pointer; 
+}
+#11,#12,#13,#14,#15,#16{
+    word-wrap: normal;
+}
+.text_btn button{
+    float: right;
+    margin-top: 15px;
+    background-color: #61CBFF;
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+    font-weight: bold;
+}
+.text_btn input{
+    margin-top: 10px;
+    width: 90%;
+    border: none;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 18px;
+}
+.text_head{
+    background-color: #BDBEC7;
+    font-weight: bold;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.botm_menu{
+    background-color: #BCBDC6;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.btm li{
+    list-style-type: none;
+    display: inline;
+}
+#plus,#minus{
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.txt_ar{
+    width: 100%;
+    margin-left: -15px;
+    border: none;
+}

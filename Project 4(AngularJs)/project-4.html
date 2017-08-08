@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Angular Assignment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link rel="stylesheet" href="./lib/css/project-4.css">
+    <script src="./lib/js/project-4.js"></script>
+</head>
+
+<body>
+    <div ng-app="myapp" class="container" ng-controller="myctrl">
+        <div class="row row_r1">
+            <div class="col-md-3" ng-repeat='item in menuItems' ng-class="{active : activeMenu === item}">
+                <a ng-click="setActive(item)">{{ item }}</a>
+            </div>
+        </div>
+        <div class="row row_r2">
+            <span class="chose">You Chose:</span><span class="menu_sel">{{selectedItem}}</span>
+            <div class="selctd"></div>
+        </div>
+        <div class="row row_r3">
+            <div class="disp_form" ng-show='home'><span class="notes">Click the following tabs to add or subtract to the total. </span>
+                <form>
+                    <div class="my_form" ng-repeat="p in projects" ng-click="addFunc(p.price)" ng-style="myStyle">
+                        <span class="mykey">{{p.title}}</span>
+                        <span ng-model="sel_val" class="myval">{{p.price | currency}}</span>
+                    </div>
+                    <hr class="myline">
+                    <div class="my_tot">
+                        <span class="mykey">Total:</span>
+                        <span class="myval">{{total | currency}}</span>
+                    </div>
+                </form>
+            </div>
+            <div class="descriptive">
+                <div class="project" ng-show='project'>
+                    <h1>You have clicked on Projects tab. The content goes in here.</h1>
+                    <h3>Yet to be developed</h3></div>
+                <div class="services" ng-show='services'>
+                    <h1>You have clicked on Services tab. The content goes in here.</h1>
+                    <h3>Yet to be developed</h3></div>
+                <div class="contact" ng-show='contact'>
+                    <h1>You have clicked on Contact tab. The content goes in here.</h1>
+                    <h3>Yet to be developed</h3></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

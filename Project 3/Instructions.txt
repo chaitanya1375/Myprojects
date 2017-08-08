@@ -1,0 +1,7 @@
+Develop the new design.
+1. Top mountain picture is a carousel. Keep 2 more images.
+2. Bottom More Info button should open modal window 
+3. Use your own images if the attachment is blurry.
+4. Popular info & Clients quotes has list of items. Create a JSON object to render them.
+5. Bottom left corner location icon should show your current location using HTML 5 geo location API.
+-

@@ -1,0 +1,148 @@
+.row_r1{
+    height:35px;
+    background-color:#151519;
+}
+.version{
+    color:#69788B;
+    font-size: 10px;
+}
+.beta{
+    color:#F70101;
+    font-size: 10px;
+}
+.row_r1 .col-md-3{
+    color:#56BFF7;
+    font-size: 19px;
+    padding-top: 5px;
+}
+.row_r1 .col-md-9{
+    text-align: right;
+    color:#7F8190;
+    height: 35px;
+    padding-top: 5px;
+    background: linear-gradient(#151519, #20303B);
+}
+.row_r1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#3E87B2;
+    padding-left: 20px;
+}
+.row_r1 p{
+    display: inline;
+    color:#3E87B2;
+}
+.row_r2{
+    height:35px;
+    background-color:#25262C;
+}
+.row_r2 .col-md-3{
+    color:#FEFEFB;
+    margin-top: 7px;
+}
+.row_r2 .col-md-9{
+    height:35px;
+    background-color:#61CBFF;
+}
+.row_r2 p{
+    display: inline;
+    padding-right: 10px;
+    text-align: right;
+}
+.row_r2 input{
+    border: none;
+    width: 80%;
+    background-color:#61CBFF;
+    padding:7px;
+    color: black;
+    font-weight: bold;
+}
+::-webkit-input-placeholder {
+    color: Black;
+    font-weight: bold;
+}
+.row_r3 .col-md-3 {
+    background-color:#2F3037;
+    height: 590px;
+    color: #817F85;
+    font-weight: bold;
+}
+.row_r3 .col-md-9 {
+    background-color:#F4F4F5;
+    height: 70px;
+}
+button{
+    float: right;
+    margin: 20px;
+    background-color: #61CBFF;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
+.display{
+    background-color: #BDBEC7;
+    border: 5px;
+    height: 110px;
+    font-weight: bold;
+}
+.row_r3 p{
+    display: inline;
+    padding-right: 20px;
+}
+.right_arrow{
+    float: right;
+}
+.nav_men{
+    padding: 3px;
+    font-size: 15px;
+}
+.icon{
+    padding-right: 2px;
+}
+hr{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+.nav_men:hover {
+    cursor: pointer; 
+}
+#11,#12,#13,#14,#15,#16{
+    word-wrap: normal;
+}
+.botm_menu{
+    background-color: #BCBDC6;
+    height: 30px;
+    margin-top: 33%;
+    margin-left: 25%;
+}
+.botm_cnsl{
+    background-color: #F4F4F5;
+    height: 60px;
+    margin-left: 25%;
+}
+.empty_1{
+    background-color: #EBECEE;
+    height: 116px;
+}
+[contenteditable=true]:empty:before{
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+    font-weight: bold;
+    padding-top: 80px;
+}
+.plus,.minus{
+    float: right;
+}
+.botm_menu a{
+    padding-right: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #4E505B;
+}
+.plus:hover {
+    cursor: pointer; 
+}
+.minus:hover {
+    cursor: pointer; 
+}
