@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+	<title>ASS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./CSS/index.css">
+
+</head>
+<body>
+<div class="container" ng-controller="myctrl">
+	<div class="row row_1">
+	<div class="col-md-4 col-pad-4" ng-click="toogle()" >
+		<a href="">Home</a>
+	</div>
+	<div class="col-md-4 col-pad-4">
+		<a href="">About Us</a>
+	</div>
+	<div class="col-md-4 col-pad-4">
+		<a href="">Career</a>
+	</div>
+	</div>
+	<div id="content" ng-show="show1">
+		
+	</div>
+	<div id="footer" ng-show="show1"></div>
+</div>
+
+</body>
+</html>
